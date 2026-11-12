@@ -1,0 +1,110 @@
+/* Selector de elemento: Estilo general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Selector de ID: Contenedor principal del formulario */
+#contenedor-principal {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 480px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de clase: Título principal */
+.titulo-formulario {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Selector de clase: Bloques internos con fondo diferenciado */
+.seccion-formulario {
+    background-color: #f8fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Selector de elemento: Etiquetas label */
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* Selector de elemento: Campos de texto y área de texto */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    border: 1.5px solid #94a3b8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para la sección de intereses */
+.grupo-intereses {
+    background-color: #eff6ff;
+}
+
+.subtitulo-seccion {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1e40af;
+    margin-top: 0;
+}
+
+.opcion-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.opcion-check input[type="checkbox"] {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.opcion-check label {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Selector de ID: Botón de envío */
+#btn-registrar {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: 2px solid #1d4ed8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btn-registrar:hover {
+    background-color: #1d4ed8;
+}
